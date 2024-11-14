@@ -1,0 +1,45 @@
+// Import Bootstrap SCSS
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-custom {
+    background-color: #343a40;
+    .navbar-brand {
+        color: #ffffff;
+    }
+    .nav-link {
+        color: #ffffff;
+        &:hover {
+            color: #d4d4d4;
+        }
+    }
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.bg-black{
+    background-color: #000000;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-blue{
+    background-color: #007bff;
+}
+.bg-red{
+    background-color: #dc3545;
+}
+.bg-green{
+    background-color: #018850;
+}
+.bg-yellow{
+    background-color: #fec200;
+}   
